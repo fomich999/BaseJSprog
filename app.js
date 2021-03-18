@@ -117,9 +117,9 @@ isReady ? console.log('Всё готово!') : console.log('Всё не гот�
 
 //8 Функции
 
-function calculateAge(year) {
-    return 2020 - year
-}
+//function calculateAge(year) {
+//    return 2020 - year
+//}
 
 //const myAge = calculateAge(1993)
 //console.log(myAge)
