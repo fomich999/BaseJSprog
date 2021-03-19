@@ -169,8 +169,22 @@ const person = {
     lastName: 'Fomichev',
     year: 1983,
     languages: ['Ru', 'En', 'De'],
-    hasWife: true,
+    hasWife: false,
     greet: function() {
-
+        //console.log(this.greet)
+        console.log('greet from person')
     }
 }
+
+console.log(person)
+console.log(person.firstName)
+console.log(person['lastName'])
+console.log(person.languages[0])
+let key = 'languages'
+key = 'year'
+console.log(person[key])
+
+person.hasWife = true
+person.isProgrammer = true
+console.log(person)
+person.greet()
