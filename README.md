@@ -1,6 +1,8 @@
 # JS-6h
 https://www.youtube.com/watch?v=Bluxbh9CaQ0
+
 Содержание: 
+
 0:00:00​ - Введение
 0:01:31​ - Что такое JavaScript
 0:29:44​ - Основы
