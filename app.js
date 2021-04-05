@@ -52,7 +52,7 @@
 // console.log(10n - BigInt(4))
 // console.log(5n / 2n) //2n
 
-//3 Math
+//3 Math //
 console.log(Math.E)
 console.log(Math.PI)
 
