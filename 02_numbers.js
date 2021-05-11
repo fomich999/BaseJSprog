@@ -69,25 +69,25 @@
 // console.log(Math.random()*)
 
 // 4 Example
-function getRandomBetween(min, max) {
-    let a = Math.random()
-
-    console.log('a = Math.random:', a)
-    console.log('max - min:', max - min)
-    console.log('a * (max - min):', a * (max - min))
-
-    console.log('floor:', Math.floor(a * (max - min)))
-    console.log('round:', Math.round(a * (max - min)))
-
-    let b = (a * (max - min) + min)
-    console.log('b = (a * (max - min) + min)')
-    console.log('b:', b)
-
-    console.log('round b:', Math.round (b))
-    console.log('floor b:', Math.floor (b))
-
-    console.log(Math.floor(a * (max - min) + min))
-
-    return Math.floor(a * (max - min + 1) + min)
-}
-console.log('funcresult is: floor(a * (max - min + 1) + min):', getRandomBetween(10, 42));
+// function getRandomBetween(min, max) {
+//     let a = Math.random()
+//
+//     console.log('a = Math.random:', a)
+//     console.log('max - min:', max - min)
+//     console.log('a * (max - min):', a * (max - min))
+//
+//     console.log('floor:', Math.floor(a * (max - min)))
+//     console.log('round:', Math.round(a * (max - min)))
+//
+//     let b = (a * (max - min) + min)
+//     console.log('b = (a * (max - min) + min)')
+//     console.log('b:', b)
+//
+//     console.log('round b:', Math.round (b))
+//     console.log('floor b:', Math.floor (b))
+//
+//     console.log(Math.floor(a * (max - min) + min))
+//
+//     return Math.floor(a * (max - min + 1) + min)
+// }
+// console.log('funcresult is: floor(a * (max - min + 1) + min):', getRandomBetween(10, 42));
