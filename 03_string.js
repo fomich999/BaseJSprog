@@ -36,7 +36,7 @@ function logPerson(s, name, age) {
     if (age <0 ) {
        age = 'Еще не родился'
     }
-    return `${s[0]}${name}${s[1]}${age}${s[2]}`
+    return `${s[0]}${name}${s[1]}${age}${s[2]}` //info about person
 }
 
 const personName = 'Александр'
