@@ -71,6 +71,6 @@ function createMember(name) {
 }
 
 const logWithLastName = createMember('Alexandr')
-console.log(LogWithLastName)
+console.log(logWithLastName)
 // console.log(LogWithLastName('Fomichev'))
 // console.log(LogWithLastName('Minin'))
