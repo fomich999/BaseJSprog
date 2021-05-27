@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="app.js JavaScript" type="JavascriptDebugType" activateToolWindowBeforeRun="false" uri="http://localhost:63342/emptyP1/index.html" useBuiltInWebServerPort="true">
+  <configuration default="false" name="app.js JavaScript" type="JavascriptDebugType" activateToolWindowBeforeRun="false" uri="http://localhost:63342/JSWS/index.html" useBuiltInWebServerPort="true">
     <method v="2" />
   </configuration>
 </component>
