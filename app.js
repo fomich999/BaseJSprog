@@ -45,11 +45,13 @@ console.log(findedPerson)
 // console.log(people[index])
 //
 // const person = people.find(function (person){
-//     return person.budget === 1700
-//})
-//console.log("метод find находит элемент массива по одному из параметров элемента:", person)
-const person = people.find(person => person.budget === 3500)
-console.log(person)
+//     return person.budget === 1700000000000
+// })
+// console.log("метод find находит элемент массива по одному из параметров элемента:", person)
+// const person = people.find(person => person.budget === 3500)
+// console.log(person)
+
+//console.log(cars.includes('Мазда'))
 
 // Задача 1
 // const text = 'Привет, мы изучаем JavaScript'
