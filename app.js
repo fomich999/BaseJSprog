@@ -29,13 +29,13 @@ function addItemToEnd() {
 // cars[index] = 'Porsche'
 // console.log(cars)
 
-let findedPerson
-for (const person of people) {
-    if (person.budget === 3500) {
-        findedPerson = person
-    }
-}
-console.log(findedPerson)
+// let findedPerson
+// for (const person of people) {
+//     if (person.budget === 3500) {
+//         findedPerson = person
+//     }
+// }
+// console.log(findedPerson)
 
 // const index = people.findIndex(function(person){
 //     return person.budget === 3500
@@ -52,6 +52,16 @@ console.log(findedPerson)
 // console.log(person)
 
 //console.log(cars.includes('Мазда'))
+
+// const upperCaseCars = cars.map(car => {
+//     return car.toUpperCase()
+// })
+// console.log(upperCaseCars)
+// console.log(cars)
+
+const pow2Fib = fib.map( num => num **2)
+console.log(pow2Fib)
+
 
 // Задача 1
 // const text = 'Привет, мы изучаем JavaScript'
