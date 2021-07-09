@@ -76,11 +76,11 @@ const people = [
     {name: 'Victoria', budget: 1700}
 ]
 
-const allBudget = people.filter(person =>person.budget > 2000)
+const allBudget = people
+    .filter(person =>person.budget > 2000)
     .reduce((acc,person) => {
-        acc += person.budget
-
-    return acc
+      acc += person.budget
+      return acc
 }, 0)
 
 console.log(allBudget)
