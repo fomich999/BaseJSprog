@@ -84,3 +84,5 @@ const allBudget = people
 }, 0)
 
 console.log(allBudget)
+
+// const displayItems = allitems.filter(item => item.name.indexOf('phone') !== -1)
