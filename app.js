@@ -19,17 +19,31 @@ const heading3 =h2list[h2list.length - 1]
 console.log(heading3)
 
 setTimeout( () => {
-   addStylesTo(heading)
+   addStylesTo(heading, 'JavaScript', 'red', '3rem')
 }, 1500)
 
 setTimeout( () => {
-    addStylesTo(heading3)
+    addStylesTo(heading3, 'Практикуйся', 'blue')
 }, 3000)
 
-function addStylesTo(node) {
-    node.textContent = 'Changed from JavaScript'
-    node.style.color = 'red'
+setTimeout( () => {
+    addStylesTo(heading2, 'И всё получится!', 'yellow', '2rem' )
+}, 4500)
+
+function addStylesTo(node, text, color = 'red', fontSize) {
+    node.textContent = text
+    node.style.color = color
     node.style.textAlign = 'center'
     node.style.backgroundColor = 'black'
     node.style.padding = '2rem'
+    // falsy: '', undefined, null, 0, false
+    if (fontSize) {
+        node.style.fontSize = fontSize
+    }
+}
+// https://developer.mozilla.org/ru/docs/Web/Events
+heading.onclick = () => {
+    if (heading.style.color === 'red') {
+
+    }
 }
