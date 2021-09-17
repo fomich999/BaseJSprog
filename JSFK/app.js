@@ -25,3 +25,33 @@
 // console.log("Вот длинная строка".slice(0, 3));
 // var str = "Вот длинная строка"
 // console.log(str[0]+[5]);
+
+// console.log("Эта длинная строка такая длинная".slice(0, 4));
+// var longString = "Эта длинная строка такая длинная";
+// console.log(longString.slice(4));
+// console.log(longString.slice(4, 18));
+
+// console.log("Эй, как дела?");
+// console.log("Эй, как дела?".toUpperCase());
+// console.log("эЙ, кАК деЛа?".toLowerCase());
+
+// var lstr = "эЙ, кАК деЛа?"
+// var lstr1 = lstr.slice(0,1).toUpperCase() + lstr.slice(1).toLowerCase()
+// console.log(lstr, lstr1);
+
+
+// Правила таковы: если посетителю 12 лет или больше,
+//     он может проходить. Если ему еще не исполнилось 12, но его
+// сопровождает взрослый, пусть тоже проходит. Во всех
+// остальных случаях вход запрещен.
+
+let age = 10
+let accompanied = false
+let cinema = false
+function cinFunk (age, accompanied) {
+    if ( (age >= 12) || ( ((age <= 11)&& (age>0)) && accompanied ) ) {
+        cinema = true
+    }
+    console.log(cinema, age)
+}
+cinFunk(age, accompanied)
