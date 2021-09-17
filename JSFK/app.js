@@ -44,12 +44,15 @@
 //     он может проходить. Если ему еще не исполнилось 12, но его
 // сопровождает взрослый, пусть тоже проходит. Во всех
 // остальных случаях вход запрещен.
+// Попробуйте поменять эти значения (например, пусть в age будет число 12,
+//     а в accompanied — true) и убедитесь, что код по-прежнему находит
+// верное решение.
 
-let age = 10
-let accompanied = false
+let age = 0
+let accompanied = true
 let cinema = false
 function cinFunk (age, accompanied) {
-    if ( (age >= 12) || ( ((age <= 11)&& (age>0)) && accompanied ) ) {
+    if ( (age >= 12) || ( ( (age <= 11)&& (age>0) ) && accompanied ) ) {
         cinema = true
     }
     console.log(cinema, age)
